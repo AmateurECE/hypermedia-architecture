@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.22.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
+<styleSheet>
+<val>diagram {
+ /* line-style: sloppy 0.3; */
+}
+
+controlflow {
+  dash-style: 0;
+}
+</val>
+</styleSheet>
+</StyleSheet>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>IceCreamGov</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="e34f1bb8-8e69-11ee-b6da-31b3ba60def9"/>
+<ref refid="0bb1c77d-8e6a-11ee-8429-31b3ba60def9"/>
+<ref refid="335a301f-8e6a-11ee-b326-31b3ba60def9"/>
+<ref refid="2dc27e4a-8e6d-11ee-8cfe-31b3ba60def9"/>
+</reflist>
+</nestedPackage>
+<ownedDiagram>
+<reflist>
+<ref refid="d4a63c8a-8e69-11ee-86e3-31b3ba60def9"/>
+</reflist>
+</ownedDiagram>
+</Package>
+<Diagram id="62d80d58-8df0-11ee-b267-c889f3ad3b9c">
+<diagramType>
+<val>uc</val>
+</diagramType>
+<element>
+<ref refid="e34f1bb8-8e69-11ee-b6da-31b3ba60def9"/>
+</element>
+<name>
+<val>IceCreamGov</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="fb19ad14-8e5b-11ee-a9d4-31b3ba60def9"/>
+<ref refid="af574d83-8e6a-11ee-872a-31b3ba60def9"/>
+<ref refid="1eb658e4-8e6b-11ee-98f3-31b3ba60def9"/>
+<ref refid="0c67bdef-8e6b-11ee-a7b3-31b3ba60def9"/>
+<ref refid="3421e485-8e6b-11ee-b6ba-31b3ba60def9"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Actor id="fb19894b-8e5b-11ee-afc5-31b3ba60def9">
+<name>
+<val>State Employee</val>
+</name>
+<package>
+<ref refid="e34f1bb8-8e69-11ee-b6da-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="fb19ad14-8e5b-11ee-a9d4-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Actor>
+<ActorItem id="fb19ad14-8e5b-11ee-a9d4-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 65.7265625, 133.5234375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>38.0</val>
+</width>
+<height>
+<val>60.0</val>
+</height>
+<diagram>
+<ref refid="62d80d58-8df0-11ee-b267-c889f3ad3b9c"/>
+</diagram>
+<subject>
+<ref refid="fb19894b-8e5b-11ee-afc5-31b3ba60def9"/>
+</subject>
+</ActorItem>
+<Diagram id="d4a63c8a-8e69-11ee-86e3-31b3ba60def9">
+<diagramType>
+<val>pkg</val>
+</diagramType>
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>IceCreamGov</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="e34f38ca-8e69-11ee-9c05-31b3ba60def9"/>
+<ref refid="0bb1ecfd-8e6a-11ee-b3d4-31b3ba60def9"/>
+<ref refid="335a5dd6-8e6a-11ee-8e3c-31b3ba60def9"/>
+<ref refid="2dc2a2f3-8e6d-11ee-aee1-31b3ba60def9"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Package id="e34f1bb8-8e69-11ee-b6da-31b3ba60def9">
+<name>
+<val>1. Use Cases</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="62d80d58-8df0-11ee-b267-c889f3ad3b9c"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="fb19894b-8e5b-11ee-afc5-31b3ba60def9"/>
+<ref refid="af57047f-8e6a-11ee-8093-31b3ba60def9"/>
+<ref refid="0d7f07d7-8e6b-11ee-93f4-31b3ba60def9"/>
+<ref refid="1eb5ee6d-8e6b-11ee-b68d-31b3ba60def9"/>
+</reflist>
+</ownedType>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="e34f38ca-8e69-11ee-9c05-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Package>
+<PackageItem id="e34f38ca-8e69-11ee-9c05-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 135.98828125, 128.9140625)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>111.0</val>
+</width>
+<height>
+<val>70.0</val>
+</height>
+<diagram>
+<ref refid="d4a63c8a-8e69-11ee-86e3-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="e34f1bb8-8e69-11ee-b6da-31b3ba60def9"/>
+</subject>
+</PackageItem>
+<Package id="0bb1c77d-8e6a-11ee-8429-31b3ba60def9">
+<name>
+<val>3. Structure</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="0b214131-8e6d-11ee-81b7-31b3ba60def9"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="106bbb64-8e6d-11ee-8e00-31b3ba60def9"/>
+</reflist>
+</ownedType>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="0bb1ecfd-8e6a-11ee-b3d4-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Package>
+<PackageItem id="0bb1ecfd-8e6a-11ee-b3d4-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 363.05859375, 151.13671875)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>145.0</val>
+</width>
+<height>
+<val>70.0</val>
+</height>
+<diagram>
+<ref refid="d4a63c8a-8e69-11ee-86e3-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="0bb1c77d-8e6a-11ee-8429-31b3ba60def9"/>
+</subject>
+</PackageItem>
+<Package id="335a301f-8e6a-11ee-b326-31b3ba60def9">
+<name>
+<val>4. Behavior</val>
+</name>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="335a5dd6-8e6a-11ee-8e3c-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Package>
+<PackageItem id="335a5dd6-8e6a-11ee-8e3c-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 252.05859375, 303.27734375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>111.0</val>
+</width>
+<height>
+<val>70.0</val>
+</height>
+<diagram>
+<ref refid="d4a63c8a-8e69-11ee-86e3-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="335a301f-8e6a-11ee-b326-31b3ba60def9"/>
+</subject>
+</PackageItem>
+<UseCase id="af57047f-8e6a-11ee-8093-31b3ba60def9">
+<name>
+<val>Enter Measured Particulate for Station</val>
+</name>
+<package>
+<ref refid="e34f1bb8-8e69-11ee-b6da-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="af574d83-8e6a-11ee-872a-31b3ba60def9"/>
+</reflist>
+</presentation>
+</UseCase>
+<UseCaseItem id="af574d83-8e6a-11ee-872a-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 240.58984375, 86.83754949843643)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>82.00424737656357</val>
+</height>
+<diagram>
+<ref refid="62d80d58-8df0-11ee-b267-c889f3ad3b9c"/>
+</diagram>
+<subject>
+<ref refid="af57047f-8e6a-11ee-8093-31b3ba60def9"/>
+</subject>
+</UseCaseItem>
+<AssociationItem id="0c67bdef-8e6b-11ee-a7b3-31b3ba60def9">
+<diagram>
+<ref refid="62d80d58-8df0-11ee-b267-c889f3ad3b9c"/>
+</diagram>
+<head_subject>
+<ref refid="0d7f201b-8e6b-11ee-a35f-31b3ba60def9"/>
+</head_subject>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="0d7f07d7-8e6b-11ee-93f4-31b3ba60def9"/>
+</subject>
+<tail_subject>
+<ref refid="0d7f2e2a-8e6b-11ee-9954-31b3ba60def9"/>
+</tail_subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 83.24609375, 162.31640625)</val>
+</matrix>
+<points>
+<val>[(20.48046875, -3.4788567515635833), (157.34375, -22.323909659585183)]</val>
+</points>
+<head-connection>
+<ref refid="fb19ad14-8e5b-11ee-a9d4-31b3ba60def9"/>
+</head-connection>
+<tail-connection>
+<ref refid="af574d83-8e6a-11ee-872a-31b3ba60def9"/>
+</tail-connection>
+</AssociationItem>
+<Association id="0d7f07d7-8e6b-11ee-93f4-31b3ba60def9">
+<memberEnd>
+<reflist>
+<ref refid="0d7f201b-8e6b-11ee-a35f-31b3ba60def9"/>
+<ref refid="0d7f2e2a-8e6b-11ee-9954-31b3ba60def9"/>
+</reflist>
+</memberEnd>
+<ownedEnd>
+<reflist>
+<ref refid="0d7f201b-8e6b-11ee-a35f-31b3ba60def9"/>
+<ref refid="0d7f2e2a-8e6b-11ee-9954-31b3ba60def9"/>
+</reflist>
+</ownedEnd>
+<package>
+<ref refid="e34f1bb8-8e69-11ee-b6da-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="0c67bdef-8e6b-11ee-a7b3-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Association>
+<Property id="0d7f201b-8e6b-11ee-a35f-31b3ba60def9">
+<association>
+<ref refid="0d7f07d7-8e6b-11ee-93f4-31b3ba60def9"/>
+</association>
+<owningAssociation>
+<ref refid="0d7f07d7-8e6b-11ee-93f4-31b3ba60def9"/>
+</owningAssociation>
+<type>
+<ref refid="fb19894b-8e5b-11ee-afc5-31b3ba60def9"/>
+</type>
+</Property>
+<Property id="0d7f2e2a-8e6b-11ee-9954-31b3ba60def9">
+<association>
+<ref refid="0d7f07d7-8e6b-11ee-93f4-31b3ba60def9"/>
+</association>
+<owningAssociation>
+<ref refid="0d7f07d7-8e6b-11ee-93f4-31b3ba60def9"/>
+</owningAssociation>
+<type>
+<ref refid="af57047f-8e6a-11ee-8093-31b3ba60def9"/>
+</type>
+</Property>
+<UseCase id="1eb5ee6d-8e6b-11ee-b68d-31b3ba60def9">
+<extend>
+<reflist>
+<ref refid="3629451f-8e6b-11ee-a1d2-31b3ba60def9"/>
+</reflist>
+</extend>
+<name>
+<val>Observe Status (Healthy or Unhealthy)</val>
+</name>
+<package>
+<ref refid="e34f1bb8-8e69-11ee-b6da-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="1eb658e4-8e6b-11ee-98f3-31b3ba60def9"/>
+</reflist>
+</presentation>
+</UseCase>
+<UseCaseItem id="1eb658e4-8e6b-11ee-98f3-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 475.90625, 127.5234375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>120.18359375</val>
+</width>
+<height>
+<val>82.63671875</val>
+</height>
+<diagram>
+<ref refid="62d80d58-8df0-11ee-b267-c889f3ad3b9c"/>
+</diagram>
+<subject>
+<ref refid="1eb5ee6d-8e6b-11ee-b68d-31b3ba60def9"/>
+</subject>
+</UseCaseItem>
+<ExtendItem id="3421e485-8e6b-11ee-b6ba-31b3ba60def9">
+<diagram>
+<ref refid="62d80d58-8df0-11ee-b267-c889f3ad3b9c"/>
+</diagram>
+<horizontal>
+<val>0</val>
+</horizontal>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<subject>
+<ref refid="3629451f-8e6b-11ee-a1d2-31b3ba60def9"/>
+</subject>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 497.59765625, 71.0390625)</val>
+</matrix>
+<points>
+<val>[(-157.0078125, 44.174305670730405), (-21.69140625, 103.32066623881164)]</val>
+</points>
+<head-connection>
+<ref refid="af574d83-8e6a-11ee-872a-31b3ba60def9"/>
+</head-connection>
+<tail-connection>
+<ref refid="1eb658e4-8e6b-11ee-98f3-31b3ba60def9"/>
+</tail-connection>
+</ExtendItem>
+<Extend id="3629451f-8e6b-11ee-a1d2-31b3ba60def9">
+<extendedCase>
+<ref refid="af57047f-8e6a-11ee-8093-31b3ba60def9"/>
+</extendedCase>
+<extension>
+<ref refid="1eb5ee6d-8e6b-11ee-b68d-31b3ba60def9"/>
+</extension>
+<presentation>
+<reflist>
+<ref refid="3421e485-8e6b-11ee-b6ba-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Extend>
+<Diagram id="0b214131-8e6d-11ee-81b7-31b3ba60def9">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<element>
+<ref refid="0bb1c77d-8e6a-11ee-8429-31b3ba60def9"/>
+</element>
+<name>
+<val>IceCreamGov</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="106c2faf-8e6d-11ee-ae83-31b3ba60def9"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Class id="106bbb64-8e6d-11ee-8e00-31b3ba60def9">
+<name>
+<val>Station</val>
+</name>
+<package>
+<ref refid="0bb1c77d-8e6a-11ee-8429-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="106c2faf-8e6d-11ee-ae83-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="106c2faf-8e6d-11ee-ae83-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 109.171875, 107.96875)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>58.0</val>
+</height>
+<diagram>
+<ref refid="0b214131-8e6d-11ee-81b7-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="106bbb64-8e6d-11ee-8e00-31b3ba60def9"/>
+</subject>
+</ClassItem>
+<Package id="2dc27e4a-8e6d-11ee-8cfe-31b3ba60def9">
+<name>
+<val>2. Requirements</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="42af20f7-8e6d-11ee-87c7-31b3ba60def9"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="4b3b74c3-8e6d-11ee-b2f7-31b3ba60def9"/>
+<ref refid="69d38b1b-8e6d-11ee-a994-31b3ba60def9"/>
+<ref refid="6e9b2019-8e6d-11ee-8696-31b3ba60def9"/>
+</reflist>
+</ownedType>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="2dc2a2f3-8e6d-11ee-aee1-31b3ba60def9"/>
+</reflist>
+</presentation>
+</Package>
+<PackageItem id="2dc2a2f3-8e6d-11ee-aee1-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 86.6640625, 245.25)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>131.0</val>
+</width>
+<height>
+<val>70.0</val>
+</height>
+<diagram>
+<ref refid="d4a63c8a-8e69-11ee-86e3-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="2dc27e4a-8e6d-11ee-8cfe-31b3ba60def9"/>
+</subject>
+</PackageItem>
+<SysMLDiagram id="42af20f7-8e6d-11ee-87c7-31b3ba60def9">
+<diagramType>
+<val>req</val>
+</diagramType>
+<element>
+<ref refid="2dc27e4a-8e6d-11ee-8cfe-31b3ba60def9"/>
+</element>
+<name>
+<val>IceCreamGov</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="4b3c2074-8e6d-11ee-9dd0-31b3ba60def9"/>
+<ref refid="69d3f4ce-8e6d-11ee-aa4d-31b3ba60def9"/>
+<ref refid="6e9b6f22-8e6d-11ee-b65a-31b3ba60def9"/>
+</reflist>
+</ownedPresentation>
+</SysMLDiagram>
+<Requirement id="4b3b74c3-8e6d-11ee-b2f7-31b3ba60def9">
+<externalId>
+<val>2</val>
+</externalId>
+<name>
+<val>Station Healthy Status</val>
+</name>
+<package>
+<ref refid="2dc27e4a-8e6d-11ee-8cfe-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="4b3c2074-8e6d-11ee-9dd0-31b3ba60def9"/>
+</reflist>
+</presentation>
+<text>
+<val>When the VARIANCE is less than or equal to -10%, the application shall display the VARIANCE in red font.</val>
+</text>
+</Requirement>
+<RequirementItem id="4b3c2074-8e6d-11ee-9dd0-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 365.30859375, -45.5703125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 97.0)</val>
+</top-left>
+<width>
+<val>272.21484375</val>
+</width>
+<height>
+<val>151.0</val>
+</height>
+<diagram>
+<ref refid="42af20f7-8e6d-11ee-87c7-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="4b3b74c3-8e6d-11ee-b2f7-31b3ba60def9"/>
+</subject>
+</RequirementItem>
+<Requirement id="69d38b1b-8e6d-11ee-a994-31b3ba60def9">
+<externalId>
+<val>3</val>
+</externalId>
+<name>
+<val>Station Unhealthy Status</val>
+</name>
+<package>
+<ref refid="2dc27e4a-8e6d-11ee-8cfe-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="69d3f4ce-8e6d-11ee-aa4d-31b3ba60def9"/>
+</reflist>
+</presentation>
+<text>
+<val>When the VARIANCE is greater than or equal to 5%, the application shall display the VARIANCE In green font.</val>
+</text>
+</Requirement>
+<RequirementItem id="69d3f4ce-8e6d-11ee-aa4d-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 365.30859375, 83.2578125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 140.26171875)</val>
+</top-left>
+<width>
+<val>298.375</val>
+</width>
+<height>
+<val>143.73828125</val>
+</height>
+<diagram>
+<ref refid="42af20f7-8e6d-11ee-87c7-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="69d38b1b-8e6d-11ee-a994-31b3ba60def9"/>
+</subject>
+</RequirementItem>
+<Requirement id="6e9b2019-8e6d-11ee-8696-31b3ba60def9">
+<externalId>
+<val>1</val>
+</externalId>
+<name>
+<val>Variance Calculation</val>
+</name>
+<package>
+<ref refid="2dc27e4a-8e6d-11ee-8cfe-31b3ba60def9"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="6e9b6f22-8e6d-11ee-b65a-31b3ba60def9"/>
+</reflist>
+</presentation>
+<text>
+<val>The application shall display the VARIANCE of the last ACTUAL value from the last TARGET value, where VARIANCE is calculated as:
+fn: VARIANCE -&gt; (TARGET - ACTUAL) / TARGET</val>
+</text>
+</Requirement>
+<RequirementItem id="6e9b6f22-8e6d-11ee-b65a-31b3ba60def9">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 21.39453125, 51.4296875)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>314.4375</val>
+</width>
+<height>
+<val>180.09765625</val>
+</height>
+<diagram>
+<ref refid="42af20f7-8e6d-11ee-87c7-31b3ba60def9"/>
+</diagram>
+<subject>
+<ref refid="6e9b2019-8e6d-11ee-8696-31b3ba60def9"/>
+</subject>
+</RequirementItem>
+</gaphor>
